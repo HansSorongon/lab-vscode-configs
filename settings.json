@@ -1,17 +1,17 @@
 {
-  "vim.insertmodekeybindings": [
+  "vim.insertModeKeyBindings": [
     {
       "before": ["k", "j"],
       "after": ["<esc>"]
     }
   ],
-  "vim.visualmodekeybindings": [
+  "vim.visualModeKeyBindings": [
     {
       "before": ["k", "j"],
       "after": ["<esc>"]
     }
   ],
-  "vim.normalmodekeybindings": [
+  "vim.normalModeKeyBindings": [
     {
       "before": ["<leader>", "j"],
       "after": ["1", "0", "j"]
@@ -22,9 +22,9 @@
     },
     {
       "before": ["<leader>", "a"],
-      "after": ["g", "g", "v", "g"]
-    },
+      "after": ["g", "g", "V", "G"]
+    }
   ],
   "vim.leader": "<space>",
-  "editor.linenumbers": "relative",
+  "editor.lineNumbers": "relative"
 }
